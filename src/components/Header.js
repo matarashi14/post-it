@@ -10,8 +10,6 @@ function Header() {
         <FaStickyNote className="text-3xl mr-4 text-blue-50" />
         <h1 className="text-3xl text-blue-50">Post-it</h1>
       </div>
-
-      <CreateNote />
     </div>
   );
 }
