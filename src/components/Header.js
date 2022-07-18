@@ -1,5 +1,4 @@
 import React from "react";
-import CreateNote from "./CreateNote";
 import { FaStickyNote } from "react-icons/fa";
 
 function Header() {

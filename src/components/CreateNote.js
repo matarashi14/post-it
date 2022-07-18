@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { MdOutlineAddCircle } from "react-icons/md";
 
 function CreateNote(props) {
   const [note, setNote] = useState({ title: "", content: "", color: "" });
@@ -66,10 +65,6 @@ function CreateNote(props) {
         >
           post
         </button>
-        {/* <MdOutlineAddCircle
-          className=" text-3xl absolute bottom-0 right-0 text-teal-500 rounded-full"
-          onClick={submitNote}
-        /> */}
       </form>
     </div>
   );
